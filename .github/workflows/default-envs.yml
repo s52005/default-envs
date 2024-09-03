@@ -1,4 +1,6 @@
 name: Default Envs
+env:
+  MY_VAR: "Some Value"
 on: [push]
 jobs:
   print-envs:
