@@ -16,3 +16,4 @@ jobs:
       - run: echo GITHUB_SHA - $GITHUB_SHA
       - run: echo GITHUB_REF - $GITHUB_REF
       - run: echo HOME - $HOME
+      - run: echo MY_VAR is $MY_VAR
